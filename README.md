@@ -1,25 +1,29 @@
+# Workout Manager Application
+
 The Workout Manager is a web application that allows users to track their daily workout routines. Users can set exercises, specify the number of sets and reps, and record their progress. The application is divided into two main parts: the frontend and the backend.
 
-**Table of Contents**
-Getting Started
-Prerequisites
-Installation
-Usage
-Authentication
-Folder Structure
-Future Scope
+## Table of Contents
 
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Authentication](#authentication)
+- [Folder Structure](#folder-structure)
+- [Future Scope](#future-scope)
+## Getting Started
 
-**Getting Started**
 To get started with the Workout Manager application, follow these steps:
 
-**Prerequisites**
+### Prerequisites
+
 Before you begin, make sure you have the following software installed on your machine:
 
-Node.js: You can download it from nodejs.org.
-Installation
-Clone the GitHub repository:
+- **Node.js:** You can download it from [nodejs.org](https://nodejs.org/).
 
+### Installation
+
+Clone the GitHub repository:
 git clone https://github.com/howabsurd/workoutapp.git
 
 **Navigate to the backend folder:**
@@ -47,16 +51,16 @@ The Workout Manager application should now be running. You can access it by open
 Usage
 Once the application is running, you can use it to track your daily workout routines. You can add exercises, specify the number of sets and reps, and record your progress.
 
-**Authentication**
+### Authentication
 The Workout Manager uses custom authentication with JWT (JSON Web Tokens) for user authentication. When you create an account or log in, you will receive a JWT token that you can use to access protected routes.
 
-**Folder Structure**
+### Folder Structure
 The application is organized into two main folders:
 
 frontend: Contains the React frontend of the application.
 backend: Contains the Node.js backend, including API routes, database models, and authentication logic.
 
-**Future Scope**
+### Future Scope
 In the future, we plan to expand the functionality of the Workout Manager application to include the ability to track daily meals for calorie tracking. Stay tuned for updates and improvements to the application!
 
 
