@@ -27,28 +27,41 @@ Clone the GitHub repository:
 git clone https://github.com/howabsurd/workoutapp.git
 
 **Navigate to the backend folder:**
+
 cd workoutapp/backend
+
 Create a .env file in the backend folder and fill in the following information:
 
 **.env**
+
 PORT=8000  # Port for the backend server
+
 MONGODB_URI=your-mongodb-connection-string
+
 JWT_SECRET=your-jwt-secret-key
+
 Replace your-mongodb-connection-string with your MongoDB database connection string and your-jwt-secret-key with a secure secret key for JWT token generation.
 
 **Install backend dependencies and start the server:**
+
 npm install
+
 npm start
 
 **Open a new terminal and navigate to the frontend folder:**
+
 cd ../frontend
+
 Install frontend dependencies and start the React app:
+
 npm install
+
 npm start
 
 The Workout Manager application should now be running. You can access it by opening your web browser and visiting http://localhost:3000.
 
 Usage
+
 Once the application is running, you can use it to track your daily workout routines. You can add exercises, specify the number of sets and reps, and record your progress.
 
 ### Authentication
@@ -58,6 +71,7 @@ The Workout Manager uses custom authentication with JWT (JSON Web Tokens) for us
 The application is organized into two main folders:
 
 frontend: Contains the React frontend of the application.
+
 backend: Contains the Node.js backend, including API routes, database models, and authentication logic.
 
 ### Future Scope
