@@ -34,11 +34,11 @@ Create a .env file in the backend folder and fill in the following information:
 
 **.env**
 
-PORT=8000  # Port for the backend server
+PORT=4000  # Port for the backend server
 
-MONGODB_URI=your-mongodb-connection-string
+MONGO_URI=your-mongodb-connection-string
 
-JWT_SECRET=your-jwt-secret-key
+SECRET=your-jwt-secret-key
 
 Replace your-mongodb-connection-string with your MongoDB database connection string and your-jwt-secret-key with a secure secret key for JWT token generation.
 
